@@ -1,0 +1,68 @@
+1. INFORMACIÓN CORPORATIVA
+Nombre: ACME LOGÍSTICA C.A.
+RIF: J-12345678-9
+Sector: Transporte y logística de carga terrestre nacional
+Experiencia: Más de 15 años
+Contacto: contacto@acmelogistica.com.ve / cotizaciones@acmelogistica.com.ve / +58-412-987.65.43
+Ubicación: Zona Industrial de Valencia, Calle Principal, Galpón 15, Carabobo
+
+2. ESTRUCTURA DE CONTENIDO IDENTIFICADA (SPA)
+✅ Inicio: Presentación general, misión y visión de la empresa. [SUGERENCIA: Componente Hero Section + CardGroup de Bootstrap con container-fluid, row, col]
+
+✅ Servicios: Lista de todos los servicios con iconos o imágenes ilustrativas. [SUGERENCIA: Cards con row-cols-3 y clase card border-0 shadow-sm]
+
+✅ Flota: Detalle numérico y visual del parque automotor. [SUGERENCIA: Grid responsive con cards o Carousel (carousel slide)]
+
+✅ Cobertura: Mapa con cobertura nacional y listado de estados atendidos. [SUGERENCIA: Map section con accordion + embed responsive para mapa interactivo]
+
+✅ Certificaciones: Logos o insignias de las certificaciones obtenidas. [SUGERENCIA: Card deck o Badge con d-flex justify-content-center align-items-center]
+
+✅ Infraestructura: Fotos y descripción de las instalaciones principales. [SUGERENCIA: Image gallery con row y col-md-4 combinados con Modal Image Preview]
+
+✅ Testimonios: Opiniones de clientes destacados. [SUGERENCIA: Carousel con carousel-item y Blockquote Component]
+
+✅ Contacto/Cotización: Formulario para solicitar cotización, con información de contacto y WhatsApp. [SUGERENCIA: Form component con form-floating + Icons + Button primary]
+
+
+
+3. REQUERIMIENTOS TÉCNICOS (React + Bootstrap)
+ Sitio tipo SPA con React Router (sugerencia: react-router-dom con rutas /, /servicios, /flota, /contacto)
+
+ Diseño responsive compatible con móviles, tablets y desktop (sugerencia: clases container-fluid, row, col-sm-12, col-md-6)
+
+ Navbar fija y dinámica con scroll (sugerencia: navbar sticky-top bg-light shadow)
+
+ Hero principal con imagen de fondo y CTA “Solicita tu cotización” (sugerencia: hero-section + btn btn-primary btn-lg)
+
+ Listado de servicios con íconos vectoriales (sugerencia: react-icons + card-group)
+
+ Componente “Cotización” con validación de formulario (sugerencia: FormControl, InputGroup, Button)
+
+ Componente “Testimonios” con carrusel automático (sugerencia: Carousel + Interval props)
+
+ Footer con enlaces de contacto y redes sociales (sugerencia: footer bg-dark text-light py-4)
+
+ Uso de contexto para datos globales (sugerencia: React Context API o Zustand para compartir información de empresa)
+
+
+
+
+4. PALETA DE COLORES SUGERIDA
+
+Azul Marino: #002B5C - Transmite confianza y profesionalismo.
+
+Gris Claro: #F4F4F4 - Neutral para fondos y secciones secundarias.
+
+Amarillo Dorado: #FFB400 - Representa energía, movimiento y transporte.
+
+Blanco: #FFFFFF - Limpieza y claridad visual.
+
+Negro Suave: #111111 - Contraste elegante para texto o footer.
+
+
+
+5. TIPOGRAFÍA
+Títulos: Poppins - 600 / Semibold (moderna, legible y corporativa)
+
+Cuerpo: Open Sans - 400 / Regular (ideal para texto corrido y lectura cómoda)
+

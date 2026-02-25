@@ -1,0 +1,229 @@
+El documento que faltaba - Para extraer información correcta
+
+Objetivo: Guiar al estudiante (o a una IA) para hacer las preguntas correctas y transformar información desordenada del cliente en un brief técnico estructurado.
+
+
+PLANTILLA: "Entrevista de Requisitos para Sitio Web"
+
+# 📋 CUESTIONARIO DE DESCUBRIMIENTO - [NOMBRE DEL CLIENTE]
+
+*Completa esta plantilla con la información que el cliente te proporcione. 
+Puedes usarla como guía para una entrevista o para promptear una IA.*
+
+------------------------------------------------------------------------------------------------------
+
+## 🔹 SECCIÓN 1: IDENTIDAD CORPORATIVA
+
+### 1.1 Datos Legales y de Contacto
+
+    □ Razón Social completa: ___________________
+    □ RIF / Documento legal: ___________________
+    □ Dirección física completa: ___________________
+    □ Teléfono fijo: ___________________
+    □ WhatsApp / Móvil: ___________________
+    □ Email principal: ___________________
+    □ Email para cotizaciones (si es diferente): ___________________
+    □ Sitio web actual (si existe): ___________________
+    □ Redes sociales activas: ___________________
+
+### 1.2 Propósito del Sitio Web
+
+    □ ¿Cuál es el objetivo PRINCIPAL del sitio?
+    [ ] Generar cotizaciones/leads
+    [ ] Mostrar portafolio/servicios
+    [ ] Venta directa (e-commerce)
+    [ ] Soporte post-venta
+    [ ] Reclutamiento
+    [ ] Otro: ___________________
+
+    □ ¿Qué acción quieres que haga el visitante al entrar?
+    [ ] Llamar por teléfono
+    [ ] Enviar WhatsApp
+    [ ] Llenar formulario de contacto
+    [ ] Solicitar cotización
+    [ ] Ver ubicación y visitar
+    [ ] Otro: ___________________
+
+    □ ¿Quiénes son tus clientes ideales? (describe perfil)
+    _____________________________________________________________________________________________
+    _____________________________________________________________________________________________
+
+### 1.3 Mensaje Clave
+
+    □ Si el visitante solo recuerda UNA cosa de tu empresa, ¿qué debería ser?
+    _____________________________________________________________________________________________
+    □ ¿Qué te diferencia de tu competencia? (Propuesta de Valor Única)
+    _____________________________________________________________________________________________
+    _____________________________________________________________________________________________
+    □ ¿Tienes una frase o eslogan que deba aparecer destacado?
+    _____________________________________________________________________________________________
+
+
+
+-------------------------------------------------------------------------------------------------
+
+## 🔹 SECCIÓN 2: CONTENIDO Y ESTRUCTURA
+
+### 2.1 Secciones del Sitio
+*Marca las que necesitas y describe brevemente qué debe contener cada una:*
+
+□ INICIO / HERO
+    Título principal: ___________________
+    Subtítulo o descripción corta: ___________________
+    Imagen o video de fondo: [ ] Sí [ ] No
+    Botón principal (CTA): [ ] Cotizar [ ] WhatsApp [ ] Otro: _____
+
+□ SERVICIOS
+    ¿Cuántas categorías principales de servicios ofreces? _____
+    Lista de servicios (nombre + descripción breve de cada uno):
+    ___________________ : ___________________
+    ___________________ : ___________________
+    ___________________ : ___________________
+    ...
+    ¿Cada servicio necesita página propia o basta con una sección? _____
+
+□ PRODUCTOS / FLOTA / CATÁLOGO
+    ¿Necesitas mostrar productos o activos con detalles? [ ] Sí [ ] No
+    Si sí, ¿cuántos ítems aproximadamente? _____
+    ¿Qué información debe verse de cada uno? (precio, specs, fotos, etc.)
+
+□ SOBRE NOSOTROS
+    ¿Incluir Misión y Visión? [ ] Sí [ ] No
+    ¿Años de experiencia? _____
+    ¿Equipo o personal destacado? [ ] Sí [ ] No
+    ¿Historia de la empresa? [ ] Sí [ ] No
+
+□ CERTIFICACIONES / CONFIANZA
+    ¿Tienes certificaciones, premios o afiliaciones que deban destacarse?
+
+□ TESTIMONIOS / CASOS DE ÉXITO
+    ¿Tienes testimonios de clientes que podamos publicar? [ ] Sí [ ] No
+    ¿Cuántos aproximadamente? _____
+    ¿Incluir nombre, empresa y cargo del cliente? [ ] Sí [ ] No
+
+□ GALERÍA / PORTAFOLIO
+    ¿Necesitas mostrar fotos de trabajos realizados? [ ] Sí [ ] No
+    ¿Cuántas imágenes aproximadamente? _____
+    ¿Las imágenes ya están disponibles o hay que tomarlas? _____
+
+□ COBERTURA / UBICACIÓN
+    ¿Atiendes una zona específica o a nivel nacional? ___________________
+    ¿Necesitas mapa interactivo o basta con dirección textual? _____
+    ¿Ofreces servicio a domicilio o pickup? ___________________
+
+□ CONTACTO
+    ¿Qué datos de contacto deben ser visibles en todas las páginas? 
+    [ ] Teléfono [ ] WhatsApp [ ] Email [ ] Dirección [ ] Redes
+    ¿Necesitas formulario de contacto? [ ] Sí [ ] No
+    Si sí, ¿qué campos debe tener el formulario?
+    ¿El formulario debe enviar a email, WhatsApp o ambos? _____
+
+□ HORARIO DE ATENCIÓN
+    ¿Debes mostrar horario de atención visible? [ ] Sí [ ] No
+    Horario: ___________________
+
+
+### 2.2 Contenido Multimedia
+
+    □ ¿Tienes logo en formato vectorial (SVG, AI, EPS)? [ ] Sí [ ] No
+    □ ¿Tienes fotos profesionales de:
+        Instalaciones: [ ] Sí [ ] No
+        Equipos/maquinaria: [ ] Sí [ ] No
+        Equipo de trabajo: [ ] Sí [ ] No
+        Trabajos realizados: [ ] Sí [ ] No
+    □ ¿Necesitas que te ayudemos a conseguir imágenes de stock? [ ] Sí [ ] No
+    □ ¿Tienes videos corporativos o de procesos? [ ] Sí [ ] No
+
+
+--------------------------------------------------------------------------------------------
+
+## 🔹 SECCIÓN 3: REQUERIMIENTOS TÉCNICOS
+
+### 3.1 Funcionalidades Especiales
+
+□ ¿Necesitas alguna de estas funcionalidades?
+    [ ] Formulario con validación y confirmación
+    [ ] Integración con WhatsApp (clic para chatear)
+    [ ] Mapa de Google Maps interactivo
+    [ ] Galería con lightbox o carrusel
+    [ ] Calculadora de cotizaciones básica
+    [ ] Chat en vivo (Tawk.to, WhatsApp Widget)
+    [ ] Descarga de catálogos/PDFs
+    [ ] Blog o sección de noticias
+    [ ] Multi-idioma
+    [ ] Otro: ___________________
+
+    □ ¿El sitio debe funcionar offline o en zonas con mala conexión? [ ] Sí [ ] No
+    □ ¿Necesitas que el sitio sea muy rápido en móviles? [ ] Sí [ ] No
+
+### 3.2 SEO y Visibilidad
+
+    □ ¿En qué palabras clave quieres aparecer en Google?
+    Ej: "taller motos Valencia", "reparación bombas Carabobo"
+
+    □ ¿Tu negocio depende de búsquedas locales? [ ] Sí [ ] No
+    □ ¿Ya tienes ficha de Google My Business? [ ] Sí [ ] No [ ] No sé
+
+### 3.3 Diseño y Marca
+
+    □ ¿Tienes manual de marca o guía de estilo? [ ] Sí [ ] No
+    □ Si no, ¿tienes preferencias de colores?
+        Color principal: ___________________
+        Color secundario: ___________________
+        Colores a evitar: ___________________
+    □ ¿Tienes tipografías corporativas? [ ] Sí [ ] No
+    □ ¿Sitios web que te gusten como referencia? (envía links)
+    _________________________________________________________________________
+
+    □ ¿Sitios web de competencia que debamos considerar? (para diferenciarnos)
+    _________________________________________________________________________
+
+### 3.4 Mantenimiento y Actualizaciones
+
+    □ ¿Quién actualizará el contenido después del lanzamiento?
+        [ ] El cliente (necesita panel admin)
+        [ ] El desarrollador (servicio mensual)
+        [ ] No se actualizará frecuentemente
+
+        □ ¿Necesitas que te enseñemos a hacer cambios básicos? [ ] Sí [ ] No
+
+        □ ¿Prefieres que el sitio sea estático (más rápido) o dinámico (más flexible)?
+
+
+--------------------------------------------------------------------------------------
+
+## 🔹 SECCIÓN 4: LOGÍSTICA DEL PROYECTO
+
+### 4.1 Cronograma y Entregables
+
+    □ Fecha límite para tener el sitio en producción: ___________________
+    □ ¿Hay alguna fecha importante para lanzar? (evento, campaña, etc.)
+    □ ¿Quién será el punto de contacto para aprobaciones?
+    Nombre: ___________________ Cargo: ___________________
+
+    □ ¿Cuántas rondas de revisión/ajustes esperas incluir?
+    [ ] 1 ronda [ ] 2 rondas [ ] 3+ rondas [ ] Ilimitado (no recomendado)
+
+### 4.2 Presupuesto y Alcance
+
+    □ ¿Tienes un presupuesto estimado para el desarrollo? ___________________
+    □ ¿El presupuesto incluye:
+        Dominio y hosting: [ ] Sí [ ] No
+        Licencias de imágenes: [ ] Sí [ ] No
+        Mantenimiento posterior: [ ] Sí [ ] No
+
+    □ ¿Hay funcionalidades que podríamos dejar para una "Fase 2"?
+
+-----------------------------------------------------------------------------------
+
+## 🔹 SECCIÓN 5: VALIDACIÓN FINAL
+
+    □ Confirma que la información proporcionada es correcta y actualizada: [ ] Sí
+
+    □ ¿Autorizas el uso de testimonios, logos de clientes y fotos de trabajos
+    para fines promocionales del sitio? [ ] Sí [ ] No [ ] Solo algunos
+
+    □ ¿Hay información sensible o confidencial que NO debe publicarse?
+    
+    □ Firma del cliente (o aprobación por email): ___________________
+    Fecha: ___________________

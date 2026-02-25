@@ -1,0 +1,265 @@
+## informacion de la EMPRESA
+export const companyInfo = {
+  name: "ACME LOGÍSTICA C.A.",
+  rif: "J-12345678-9",
+  description: "Transporte terrestre de carga a nivel nacional con más de 15 años de experiencia",
+  contact: {
+    email: "contacto@acmelogistica.com.ve",
+    phone: "0241-555.12.34",
+    whatsapp: "+58-412-987.65.43",
+    address: "Zona Industrial de Valencia, Calle Principal, Galpón 15, Carabobo",
+    hours: "Lunes a Viernes 8am-5pm, Sábados 9am-1pm"
+  },
+  mission: "Ser reconocida por nuestros clientes como prestador confiable de servicios de transporte y logística con un alto nivel de excelencia, garantizando la seguridad, puntualidad y trazabilidad de su mercancía en todo el territorio nacional.",
+  vision: "Ser una de las empresas reconocidas por las industrias nacionales e internacionales por la calidad de nuestros servicios de transporte, cumpliendo con las fechas de entrega acordadas y garantizando la confiabilidad y disponibilidad de nuestra flota.",
+  certifications: [
+    { name: "ISO 9001:2015", description: "Gestión de calidad" },
+    { name: "ONEX", description: "Transporte de materiales peligrosos" },
+    { name: "Cámara de Transporte de Venezuela", description: "Miembro afiliado" }
+  ],
+  infrastructure: {
+    area: "623 m2",
+    height: "7 metros",
+    features: [
+      "Sala de conferencias",
+      "Área recreativa deportiva",
+      "Área de coffee break",
+      "Gimnasio para trabajadores",
+      "Vigilancia 24/7"
+    ]
+  }
+};
+
+
+## servicios que OFRECEMOS
+export const servicios = [
+  {
+    id: "carga-general",
+    titulo: "Transporte de Carga General",
+    descripcion: "Movilización segura de mercancía estándar a nivel nacional con protocolos de manejo profesional y personal capacitado.",
+    icono: "📦",
+    caracteristicas: [
+      "Cobertura nacional",
+      "Seguro de carga incluido",
+      "Rastreo GPS en tiempo real",
+      "Entregas programadas",
+      "Personal capacitado"
+    ],
+    imagen: "/images/servicios/carga-general.jpg"
+  },
+  {
+    id: "refrigerada",
+    titulo: "Carga Refrigerada",
+    descripcion: "Unidades con control de temperatura para productos perecederos, alimentos y medicamentos manteniendo la cadena de frío.",
+    icono: "❄️",
+    caracteristicas: [
+      "Control de temperatura -20°C a +25°C",
+      "Monitoreo continuo de temperatura",
+      "Certificación sanitaria",
+      "Rutas optimizadas",
+      "Respaldos de emergencia"
+    ],
+    imagen: "/images/servicios/refrigerada.jpg"
+  },
+  {
+    id: "peligrosa",
+    titulo: "Carga Peligrosa",
+    descripcion: "Transporte especializado de materiales químicos y combustibles con personal certificado y permisos ONEX vigentes.",
+    icono: "⚠️",
+    caracteristicas: [
+      "Permiso ONEX vigente",
+      "Conductores certificados",
+      "Equipos de seguridad especializados",
+      "Rutas autorizadas",
+      "Protocolos de emergencia"
+    ],
+    imagen: "/images/servicios/peligrosa.jpg"
+  },
+  {
+    id: "sobredimensionada",
+    titulo: "Carga Sobredimensionada",
+    descripcion: "Movilización de maquinaria pesada, estructuras y equipos industriales con plataformas especializadas y estudios de ruta.",
+    icono: "🏗️",
+    caracteristicas: [
+      "Plataformas de hasta 40 toneladas",
+      "Grúas móviles para carga/descarga",
+      "Estudios de ruta previos",
+      "Acompañamiento técnico",
+      "Permisos especiales"
+    ],
+    imagen: "/images/servicios/sobredimensionada.jpg"
+  },
+  {
+    id: "almacenaje",
+    titulo: "Almacenaje Temporal",
+    descripcion: "Patios seguros en Valencia y Maracaibo para resguardo de mercancía en tránsito con control de inventario.",
+    icono: "🏭",
+    caracteristicas: [
+      "Vigilancia 24/7",
+      "Áreas techadas y abiertas",
+      "Control de inventario",
+      "Acceso programado",
+      "Seguro de almacenaje"
+    ],
+    imagen: "/images/servicios/almacenaje.jpg"
+  },
+  {
+    id: "aduanal",
+    titulo: "Gestión Aduanal",
+    descripcion: "Asesoría y tramitación de documentación para procesos de importación desde los puertos de La Guaira y Puerto Cabello.",
+    icono: "📋",
+    caracteristicas: [
+      "Gestión en La Guaira y Puerto Cabello",
+      "Documentación DUA, facturas, certificados",
+      "Coordinación con agentes de aduana",
+      "Seguimiento del proceso",
+      "Asesoría especializada"
+    ],
+    imagen: "/images/servicios/aduanal.jpg"
+  },
+  {
+    id: "rastreo",
+    titulo: "Rastreo GPS en Tiempo Real",
+    descripcion: "Plataforma digital para monitorear la ubicación exacta de tu carga durante todo el trayecto con notificaciones automáticas.",
+    icono: "🛰️",
+    caracteristicas: [
+      "Acceso web y móvil",
+      "Notificaciones de estado",
+      "Historial de rutas",
+      "Soporte técnico 24/7",
+      "Alertas de desvío"
+    ],
+    imagen: "/images/servicios/rastreo.jpg"
+  }
+];
+
+## FLOTA
+export const flota = [
+  {
+    tipo: "Tractomulas",
+    cantidad: 25,
+    capacidad: "Hasta 30 toneladas",
+    uso: "Carga general y larga distancia",
+    caracteristicas: [
+      "Motores de alta potencia",
+      "Sistema GPS integrado",
+      "Doble tanque de combustible",
+      "Mantenimiento preventivo"
+    ],
+    imagen: "/images/flota/tractomula.jpg"
+  },
+  {
+    tipo: "Camiones Rígidos",
+    cantidad: 15,
+    capacidad: "10-20 toneladas",
+    uso: "Distribución regional y urbana",
+    caracteristicas: [
+      "Maniobrabilidad urbana",
+      "Carga rápida",
+      "Rutas optimizadas",
+      "Bajo consumo"
+    ],
+    imagen: "/images/flota/rigido.jpg"
+  },
+  {
+    tipo: "Unidades Refrigeradas",
+    cantidad: 8,
+    capacidad: "Control -20°C a +25°C",
+    uso: "Productos perecederos y farmacéuticos",
+    caracteristicas: [
+      "Sistema de refrigeración digital",
+      "Registro de temperatura",
+      "Respaldo eléctrico",
+      "Certificación sanitaria"
+    ],
+    imagen: "/images/flota/refrigerado.jpg"
+  },
+  {
+    tipo: "Plataformas",
+    cantidad: 4,
+    capacidad: "Hasta 40 toneladas",
+    uso: "Carga sobredimensionada y maquinaria",
+    caracteristicas: [
+      "Plataforma extensible",
+      "Sistema de amarre profesional",
+      "Rampas hidráulicas",
+      "Estudios de ruta"
+    ],
+    imagen: "/images/flota/plataforma.jpg"
+  },
+  {
+    tipo: "Grúas Móviles",
+    cantidad: 2,
+    capacidad: "15-25 toneladas de elevación",
+    uso: "Carga y descarga en sitio",
+    caracteristicas: [
+      "Brazo extensible",
+      "Operadores certificados",
+      "Seguros de carga",
+      "Servicio on-demand"
+    ],
+    imagen: "/images/flota/grua.jpg"
+  }
+];
+
+
+## COBERTURA
+export const cobertura = {
+  puertosPrincipales: [
+    {
+      nombre: "Puerto Cabello",
+      estado: "Carabobo",
+      tipo: "Principal",
+      servicios: ["Carga general", "Contenedores", "Aduanas"]
+    },
+    {
+      nombre: "La Guaira",
+      estado: "Vargas",
+      tipo: "Principal",
+      servicios: ["Carga general", "Contenedores", "Aduanas"]
+    }
+  ],
+  estados: [
+    { nombre: "Zulia", capital: "Maracaibo", cobertura: "completa", tiempo: "24-48h" },
+    { nombre: "Carabobo", capital: "Valencia", cobertura: "completa", tiempo: "24h" },
+    { nombre: "Miranda", capital: "Los Teques", cobertura: "completa", tiempo: "24-48h" },
+    { nombre: "Lara", capital: "Barquisimeto", cobertura: "completa", tiempo: "24-48h" },
+    { nombre: "Bolívar", capital: "Ciudad Guayana", cobertura: "completa", tiempo: "48-72h" },
+    { nombre: "Anzoátegui", capital: "Barcelona", cobertura: "completa", tiempo: "24-48h" },
+    { nombre: "Aragua", capital: "Maracay", cobertura: "completa", tiempo: "24h" },
+    { nombre: "Táchira", capital: "San Cristóbal", cobertura: "parcial", tiempo: "48-72h" },
+    { nombre: "Mérida", capital: "Mérida", cobertura: "parcial", tiempo: "48-72h" },
+    { nombre: "Sucre", capital: "Cumaná", cobertura: "parcial", tiempo: "48h" },
+    { nombre: "Falcón", capital: "Coro", cobertura: "completa", tiempo: "24-48h" },
+    { nombre: "Yaracuy", capital: "San Felipe", cobertura: "completa", tiempo: "24h" }
+  ]
+};
+
+
+## TESTIMONIOS
+export const testimonios = [
+  {
+    id: 1,
+    cliente: "Industrias Metalúrgicas del Orinoco",
+    cargo: "Gerente de Logística",
+    testimonio: "ACME llevó nuestra maquinaria desde Puerto Cabello hasta Ciudad Guayana sin contratiempos. El equipo de sobredimensionada fue excelente. 100% recomendados.",
+    rating: 5,
+    logo: "/images/clientes/metalurgica.png"
+  },
+  {
+    id: 2,
+    cliente: "Distribuidora Alimentaria Nacional",
+    cargo: "Supervisor de Almacén",
+    testimonio: "El rastreo GPS nos permitió coordinar la recepción en nuestro almacén en Valencia. Excelente servicio y puntualidad. Llevamos 3 años trabajando con ellos.",
+    rating: 5,
+    logo: "/images/clientes/alimentaria.png"
+  },
+  {
+    id: 3,
+    cliente: "Alimentos Congelados C.A.",
+    cargo: "Director de Operaciones",
+    testimonio: "Transportan nuestros productos refrigerados manteniendo la cadena de frío perfecta. Muy profesionales y el monitoreo de temperatura es confiable.",
+    rating: 5,
+    logo: "/images/clientes/congelados.png"
+  }
+];

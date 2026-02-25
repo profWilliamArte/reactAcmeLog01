@@ -1,0 +1,210 @@
+📋 CUESTIONARIO DE DESCUBRIMIENTO - PROYECTO WEB
+Cliente: _______________________ | Fecha: ___/___/___ | Estudiante: _______________________
+
+🎯 INSTRUCCIONES PARA EL ESTUDIANTE:
+• Usa este documento como guía para entrevistar al cliente o para estructurar un prompt de IA
+• Marca con ✅ lo que el cliente proporcione
+• Deja en blanco o marca con ❓ lo que requiera seguimiento
+• Al finalizar, usa las respuestas para generar el Brief Técnico y los archivos .js
+
+═══════════════════════════════════════════════════════════════════════
+
+🔹 SECCIÓN A: INFORMACIÓN CORPORATIVA → company.js
+
+A.1 Identidad Básica
+□ Nombre legal completo: _______________________________________________
+□ Nombre comercial (si aplica): _________________________________________
+□ RIF / Documento legal: ______________________________________________
+□ Sector/Industria: ___________________________________________________
+□ Años de experiencia: ________________________________________________
+
+A.2 Contacto Principal
+□ Email corporativo: __________________________________________________
+□ Teléfono fijo: ______________________________________________________
+□ WhatsApp/Móvil: _____________________________________________________
+□ Dirección completa (para mostrar en web): _____________________________
+_______________________________________________________________________
+□ Horario de atención: ________________________________________________
+□ Redes sociales activas: _____________________________________________
+
+A.3 Mensaje Corporativo
+□ MISIÓN (1-2 párrafos):
+_______________________________________________________________________
+_______________________________________________________________________
+
+□ VISIÓN (1-2 párrafos):
+_______________________________________________________________________
+_______________________________________________________________________
+
+□ Propuesta de Valor Única (frase que los diferencia):
+_______________________________________________________________________
+
+A.4 Certificaciones y Credenciales
+□ Lista de certificaciones/permisos/afiliaciones:
+  1. Nombre: __________________ | Descripción: ________________________
+  2. Nombre: __________________ | Descripción: ________________________
+  3. Nombre: __________________ | Descripción: ________________________
+
+A.5 Infraestructura (si aplica)
+□ Área física total: ___________________
+□ Características destacadas:
+  □ _______________________________________________________________
+  □ _______________________________________________________________
+  □ _______________________________________________________________
+
+═══════════════════════════════════════════════════════════════════════
+
+🔹 SECCIÓN B: SERVICIOS / PRODUCTOS → servicios.js
+
+B.1 Categorías Principales
+□ ¿Cuántas categorías de servicios/productos ofreces? ______
+
+B.2 Detalle por Servicio (DUPLICAR ESTA SECCIÓN PARA CADA SERVICIO)
+
+=== SERVICIO #___ ===
+□ ID único (slug, minúsculas, sin espacios): ej: "carga-general" → _______
+□ Título corto y atractivo: ____________________________________________
+□ Descripción completa (2-3 líneas):
+_______________________________________________________________________
+□ Ícono sugerido (emoji): 📦 ⚙️ 🔧 🚛 ❄️ ⚠️ 🏗️ 🛰️ → _______
+□ Características clave (3-5 ítems):
+  1. _______________________________________________________________
+  2. _______________________________________________________________
+  3. _______________________________________________________________
+  4. (opcional) ____________________________________________________
+  5. (opcional) ____________________________________________________
+□ ¿Imagen específica para este servicio? □ Sí  □ No
+  Si sí, nombre sugerido: /images/servicios/_________________.jpg
+
+□ Información adicional (opcional):
+  □ Precio desde/hasta: ___________________
+  □ Tiempo estimado: ___________________
+  □ ¿Requiere cita previa? □ Sí  □ No
+
+═══════════════════════════════════════════════════════════════════════
+
+🔹 SECCIÓN C: ACTIVOS / FLOTA / CATÁLOGO → flota.js o productos.js
+
+C.1 Tipo de Activos a Mostrar
+□ ¿Qué necesitas mostrar?
+  □ Vehículos/Flota  □ Maquinaria  □ Productos  □ Equipos  □ Otro: _____
+
+C.2 Detalle por Tipo de Activo (DUPLICAR PARA CADA UNO)
+
+=== ACTIVO #___ ===
+□ Tipo/Categoría: ej: "Tractomulas" → __________________________________
+□ Cantidad disponible: ___________________
+□ Capacidad/Especificación principal: _________________________________
+□ Uso principal o aplicación: _________________________________________
+□ Características técnicas (3-4 ítems):
+  1. _______________________________________________________________
+  2. _______________________________________________________________
+  3. _______________________________________________________________
+□ ¿Imagen específica? □ Sí  □ No
+  Si sí, nombre: /images/flota/_________________.jpg
+
+═══════════════════════════════════════════════════════════════════════
+
+🔹 SECCIÓN D: COBERTURA / UBICACIONES → cobertura.js
+
+D.1 Puntos Principales de Operación
+□ ¿Tienes puertos/centros de distribución principales?
+  Si sí:
+  - Nombre: _______________ | Estado: _______________ | Tipo: □ Principal □ Secundario
+  - Servicios allí: _________________________________________________
+
+D.2 Cobertura Geográfica
+□ ¿Atiendes por estados/provincias/regiones? __________________________
+
+| Zona/Estado | Capital/Ciudad | Cobertura | Tiempo Promedio |
+|-------------|---------------|-----------|-----------------|
+| ___________ | _____________ | □C □P     | _______         |
+| ___________ | _____________ | □C □P     | _______         |
+| ___________ | _____________ | □C □P     | _______         |
+
+□C = Completa | □P = Parcial
+
+D.3 Servicios por Zona
+□ ¿Servicios exclusivos por zona? _____________________________________
+□ ¿Servicio a domicilio? □ Sí  □ No | Costo adicional: _______________
+
+═══════════════════════════════════════════════════════════════════════
+
+🔹 SECCIÓN E: TESTIMONIOS → testimonios.js
+
+E.1 Autorización
+□ ¿Tienes autorización PARA ESCRITO para publicar testimonios? □ Sí  □ No
+
+E.2 Detalle por Testimonio (DUPLICAR PARA CADA UNO)
+
+=== TESTIMONIO #___ ===
+□ Nombre cliente/empresa: _____________________________________________
+□ Cargo/Rol del contacto: _____________________________________________
+□ Tipo de cliente/industria: __________________________________________
+□ Plataforma usada (si aplica): _______________________________________
+□ Texto del testimonio (máx. 3 líneas):
+_______________________________________________________________________
+□ Calificación: ⭐⭐⭐⭐⭐ → _____ / 5
+□ ¿Logo/foto del cliente? □ Sí  □ No | Nombre: /images/clientes/_____.png
+
+E.3 Políticas
+□ ¿Testimonios que requieren aprobación previa? □ Sí  □ No
+□ ¿Preferencia de nombres? □ Completos  □ Solo nombre  □ Anónimos
+
+═══════════════════════════════════════════════════════════════════════
+
+🔹 SECCIÓN F: REQUERIMIENTOS TÉCNICOS Y DE DISEÑO
+
+F.1 Arquitectura del Sitio
+□ ¿Preferencia de navegación?
+  □ SPA con anclas (#servicios) - Más simple
+  □ React Router (/servicios) - Más escalable
+
+F.2 Funcionalidades Especiales
+□ ¿Necesitas integraciones?
+  □ Botón flotante WhatsApp
+  □ Formulario con validación
+  □ Mapa interactivo
+  □ Galería lightbox
+  □ Calculadora de cotizaciones
+  □ Otro: ___________________
+
+F.3 Diseño y Marca
+□ Colores corporativos:
+  - Primario (hex): _______ | Uso: ___________________
+  - Secundario (hex): _______ | Uso: ___________________
+  - Acento (hex): _______ | Uso: ___________________
+
+□ Tipografías preferidas:
+  - Títulos: ___________________
+  - Cuerpo: ___________________
+
+□ Sitios de referencia (URLs):
+_______________________________________________________________________
+
+F.4 SEO y Visibilidad
+□ Palabras clave para Google:
+  1. ___________________  2. ___________________  3. ___________________
+
+□ ¿Negocio depende de búsquedas locales? □ Sí  □ No
+□ ¿Tienes Google My Business? □ Sí  □ No  □ No sé
+
+═══════════════════════════════════════════════════════════════════════
+
+✅ VALIDACIÓN FINAL
+
+□ Confirmo que la información proporcionada es correcta y actualizada: □ Sí
+□ Autorizo el uso de testimonios/logos para fines promocionales: □ Sí □ No □ Parcial
+□ Información sensible que NO debe publicarse:
+_______________________________________________________________________
+
+Firma del cliente (o aprobación por email): ___________________
+Fecha: ___/___/___
+
+═══════════════════════════════════════════════════════════════════════
+
+📎 ANEXOS (opcional)
+□ Logo en vector (SVG/AI/EPS): □ Adjunto  □ Pendiente
+□ Fotos de instalaciones: □ Adjuntas  □ Pendientes
+□ Fotos de equipos/trabajos: □ Adjuntas  □ Pendientes
+□ Documentación técnica: □ Adjunta  □ Pendiente

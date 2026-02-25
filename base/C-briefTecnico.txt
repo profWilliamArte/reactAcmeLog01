@@ -1,0 +1,36 @@
+## 1. INFORMACIÓN CORPORATIVA
+- **Nombre:** ACME LOGÍSTICA C.A.
+- **RIF:** J-12345678-9
+- **Sector:** Transporte terrestre de carga y logística
+- **Años de experiencia:** 15+
+- **Contacto:** contacto@acmelogistica.com.ve | +58-412-987.65.43
+- **Ubicación:** Valencia, Carabobo
+
+## 2. ESTRUCTURA DE CONTENIDO IDENTIFICADA
+✅ Header: Logo + Navegación
+✅ Hero: Propuesta de valor + CTA
+✅ Servicios: [Número] categorías
+✅ Flota: [Número] tipos de vehículos
+✅ Cobertura: [Número] estados principales
+✅ Certificaciones: [Número] certificaciones
+✅ Infraestructura: Detalles de instalaciones
+✅ Testimonios: [Número] testimonios
+✅ Contacto: Formulario + datos
+
+## 3. REQUERIMIENTOS TÉCNICOS
+- [ ] Diseño responsive (mobile-first)
+- [ ] SEO local para "transporte carga Venezuela"
+- [ ] Formulario con validación
+- [ ] Optimización de imágenes
+- [ ] Integración con mapas (opcional)
+- [ ] Badges de certificaciones animados
+
+## 4. PALETA DE COLORES SUGERIDA
+- Primario: Azul oscuro (#1e3a8a) - Confianza, profesionalismo
+- Secundario: Naranja/Rojo (#ea580c) - Energía, movimiento
+- Acento: Verde (#16a34a) - Seguridad, éxito
+- Neutros: Grises para texto y fondos
+
+## 5. TIPOGRAFÍA
+- Títulos: Sans-serif bold (Inter, Roboto)
+- Cuerpo: Sans-serif regular
